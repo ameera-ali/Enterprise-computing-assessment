@@ -36,8 +36,26 @@ body {
   }
 
 .home_banner{
-  width: 100%
+  width: 100%;
+ }
 
+.welcome_heading{
+  background-color:#191919;
+  text-align: center; 
+  color: white;
+  padding: 10px;
+}
+
+.introduction{
+  background-color:#D0C1A2;
+  color:black;
+  text-align: center;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.best-selling{
+  text-align: center;
 }
 
 
