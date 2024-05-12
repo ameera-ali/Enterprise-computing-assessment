@@ -47,16 +47,119 @@ body {
 }
 
 .introduction{
-  background-color:#D0C1A2;
+  background-color:#e6e8e6;
   color:black;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   line-height: 30px;
+  margin: 0px;
 }
 
 .best-selling{
   text-align: center;
+  background-color: #191919;
+  color: #f2f2f2;
+  font-size: 20px;
+  margin: 0px;
+
+}
+
+.container_supreme{
+  position: relative;
+  width: 50%;
+}
+
+.supreme_img{
+  float: left;
+  opacity: 1;
+  width: 50%;
+  height: auto;
+
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d0c1a2;
+}
+
+.container_supreme:hover .overlay {
+  opacity: 1;
+
+}
+
+.text_supreme{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container_bbq{
+  position: relative;
+  width: 50%;
+}
+
+.container_bbq:hover .overlay {
+  opacity: 1;
+
+}
+
+.bbq_img{
+  opacity: 1;
+  width: 50%;
+  height: auto;
 }
 
 
+.text_bbq{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
+.container_hawaiian{
+  position: relative;
+  width: 50%;
+}
+
+.container_hawaiian:hover .overlay {
+  opacity: 1;
+
+}
+
+.hawaiian_img{
+  opacity: 1;
+  width: 50%;
+  height: auto;
+  display:inline;
+}
+
+
+.text_hawaiian{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
