@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.logo {
+    width: 10px;
+    float: right;
+
+  }
+  
+.navigation {
+    overflow: hidden;
+    background-color: #191919;
+  }
+  
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.navigation a:hover {
+    background-color: #F5F5DC;
+    color: black;
+    height: 31px;
+  }
+  
+.navigation a.active {
+    background-color: #717100;
+    color: white;
+    height: 31px;
+  }
+
+.home_banner{
+  width: 100%;
+  height: 60%;
+ }
+
+.welcome_heading{
+  background-color:#191919;
+  text-align: center; 
+  color: white;
+  margin:0px;
+  padding: 2px;
+  font-size:17px;
+}
+
+.introduction{
+  background-color: #e6e8e6;
+  color:black;
+  text-align: center;
+  padding: 30px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.best-selling{
+  text-align: center;
+  background-color: #191919;
+  color: #f2f2f2;
+  font-size: 17px;
+  margin: 0px;
+  padding: 2px;
+
+}
+
+.column{
+  float:left;
+  width:20%;
+  padding:0px;
+}
+
+.row::after{
+  content:"";
+  clear: both;
+  display: table;
+  }
+
+
+.container_section{
+  background-color: #191919;
+}
+
+.container_supreme{
+  position: relative;
+  width: 100%;
+}
+
+.supreme_img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d05353;
+}
+
+.container_supreme:hover .overlay {
+  opacity: 1;
+
+}
+
+.text_supreme{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.container_bbq{
+  position: relative;
+  width: 100%;
+}
+
+.container_bbq:hover .overlay {
+  opacity: 1;
+
+}
+
+.bbq_img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}
+
+
+.text_bbq{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.container_hawaiian{
+  position: relative;
+  width: 100%;
+}
+
+.container_hawaiian:hover .overlay {
+  opacity: 1;
+
+}
+
+.hawaiian_img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  display:inline;
+}
+
+
+.text_hawaiian{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
+.container_pepperoni{
+  position: relative;
+  width: 100%;
+}
+
+.container_pepperoni:hover .overlay {
+  opacity: 1;
+
+}
+
+.pepperoni_img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  display:inline;
+}
+
+.text_pepperoni{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+
+}
+
+.container_meatlovers{
+  position: relative;
+  width: 100%;
+}
+
+.container_meatlovers:hover .overlay {
+  opacity: 1;
+
+}
+
+.meatlovers_img{
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  display:inline;
+}
+
+
+.text_meatlovers{
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+ 
+
+}
+
+.container_map{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+  background-color: #e6e8e6;
+
+}
+
+.location{
+  color:#191919;
+  margin-bottom: 50px;
+  font-size:26px;
+
+}
+
+iframe{
+  width: 80%;
+  height: 450px;
+  filter: invert(100%);
+}
+
+.footer{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #18181a;
+}
+
+.inner_footer{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner_footer .logo_container{
+  width: 35%;
+  float: left;
+  height: left;
+  display: block;
+}
+
+.inner_footer .logo_container img{
+  width: 65px;
+  height: auto;
+}
+
+.innert_footer .footer_third{
+  width: calc(21.6666666667% - 20px);
+  margin-right: 10px;
+  float: left;
+  height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+  margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+  font-size: 15px;
+  color: white;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+  font-size: 12px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.inner_footer .footer_third i{
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.inner_footer .footer_third span{
+  color: white;
+  font-size: 10px;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+  padding-top: 20px;
+
+}
+
+@media(max-width: 600px){
+  .footer .inner_footer{
+    width: 90%;
+  }
+
+
+.inner_footer .logo_container,
+.inner_footer .footer_third{
+  width: 100%;
+  margin-bottom: 30px;
+}
+}

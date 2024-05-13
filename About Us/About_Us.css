@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.logo {
+    width: 10px;
+    float: right;
+
+  }
+  
+.navigation {
+    overflow: hidden;
+    background-color: #191919;
+  }
+  
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.navigation a:hover {
+    background-color: #F5F5DC;
+    color: black;
+    height: 31px;
+  }
+  
+.navigation a.active {
+    background-color: #717100;
+    color: white;
+    height: 31px;
+  }
