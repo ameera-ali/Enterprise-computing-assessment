@@ -50,12 +50,17 @@ body {
 }
 
 .introduction{
-  background-color: #e6e8e6;
+  background-color: #ffffff;
   color:black;
   text-align: center;
   padding: 30px;
   line-height: 30px;
   margin: 0px;
+}
+
+.recipe_img{
+  width:100%;
+  height:auto;
 }
 
 .best-selling{
@@ -255,7 +260,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction:column;
-  background-color: #e6e8e6;
+  background-color: #ffffff;
 
 }
 
