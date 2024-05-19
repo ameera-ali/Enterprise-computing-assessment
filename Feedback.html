@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza2Go</title>
+    <link rel="stylesheet" href="Feedback.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  </head>
+
+  <body>
+    <div class="navigation">
+      <img class="logo" src="logo.png" alt="logo" style="width:260px;height:55px;">
+      <a href="home.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="Pizzas.html">Pizzas</a>
+          <a href="Desserts.html">Desserts</a>
+          <a href="Pastas.html">Pastas</a>
+          <a href="Other.html">Other</a>
+        </div>
+      </div>
+      <a href="Deals.html">Deals</a>
+      <a href="About_Us.html">About Us</a>
+      <a class='active' href="Feedback.html">Feedback</a>
+    </div>
+
+    <img class="feedback_banner" src="feedback_banner.png">
+
+      <section class="feedback-section">
+      <div class="feedback_container">
+        <form id="feedback-form">
+          <h2 class="feedback_title">Feedback Form</h2>
+          <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+            <small class="error-message" id="name-error"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <small class="error-message" id="email-error"></small>
+          </div>
+
+          <div class="form-group">
+           <label for="phone-number">Phone Number</label>
+           <input type="tel" id="phone-number" name="phone-number" required>
+           <small class="error-message" id="phone-error"></small>
+        </div>
+
+        <div class="form-group">
+         <label for="feedback-type">Feedback Type</label>
+         <input type="text" id="feedback-type" name="feedback-type" list="suggestions" required>
+         <datalist id="suggestions">
+            <option value="General Inquiry">
+            <option value="Compliment">
+            <option value="Suggestion">
+            <option value="Complaint">
+            <option value="Can't Checkout">
+            <option value="Can't Do Something I Want">
+            <option value="Information Incorrect">
+            <option value="Security Requirements">  
+            <option value="Layout Issue"> 
+            <option value="Bug">
+            <option value="Other">           
+         </datalist>
+        <small class="error-message" id="feedback-type-error"></small>
+      </div>
+
+      <div class="form-group">
+       <label for="message">Message</label>
+       <textarea id="message" name="message" rows="4" required></textarea>
+       <small class="error-message" id="message-error"></small>
+      </div>
+      <button type="submit">Submit</button>
+
+        </form>
+      </div>
+      </section>
+
+      <footer class="'footer">
+        <div class="footer_container">
+          <div class="footer_row">
+            <div class="footer-col">
+              <h4>Links</h4>
+              <ul>
+                <li><a href='Pizzas.html'>Pizza Menu</a></li>
+                <li><a href='Deals.html'>Deals</a></li>
+                <li><a href='About_Us.html'>About Us</a></li>
+                <li><a href='Feedback.html'>Feedback</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contacts</h4>
+              <ul>
+               <li><a href="tel:+9618 0055">9618 0055</a></li>
+               <li><a href ='mailto:pizza2go@gmail.com'>pizza2go@gmail.com</a></li>
+               <li><a href="#"> 1/88-92 Saywell Rd, Macquarie Fields, NSW 2564</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    
+<script src="Feedback.js"></script>
+</body>
+
+
+
+
+</html>
