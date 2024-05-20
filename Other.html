@@ -50,7 +50,7 @@
                 <h5 class="price">$6</h5>
               </div>
               <p>Our mouthwatering Garlic Bread features freshly baked bread smothered in rich garlic butter and sprinkled with herbs.</p>
-              <button>Add To Cart</button>
+              <button class="add-to-cart">Add To Cart</button>
             </div>
           </div>
     
@@ -62,7 +62,7 @@
                 <h5 class="price">$10</h5>
               </div>
               <p>Savor our flavourful Chicken Wings, seasoned and cooked to crispy perfection, with juicy tenderness</p>
-              <button>Add To Cart</button>
+              <button class="add-to-cart">Add To Cart</button>
             </div>
     
           </div>
@@ -74,7 +74,7 @@
                 <h5 class="price">$13</h5>
               </div>
               <p>Treat yourself to our Garlic Cheese Pizza, a combination of golden melted cheese and savory garlic atop a perfectly baked crust.</p>
-              <button>Add To Cart</button>
+              <button class="add-to-cart">Add To Cart</button>
             </div>
           </div>
     
@@ -86,7 +86,7 @@
                 <h5 class="price">$14</h5>
               </div>
               <p>Experience the delight of our Olive and Feta Pizza, topped with tangy feta cheese and olives on a perfectly baked crust.</p>
-              <button>Add To Cart</button>
+              <button class="add-to-cart">Add To Cart</button>
             </div>
           </div>
     
@@ -98,7 +98,7 @@
                 <h5 class="price">$10</h5>
               </div>
               <p>Enjoy our crispy, golden Wedges perfectly seasoned and served hot, offering a delightful crunch on the outside and fluffy goodness on the inside.</p>
-              <button>Add To Cart</button>
+              <button class="add-to-cart">Add To Cart</button>
             </div>
           </div>
 
@@ -116,7 +116,7 @@
               <h5 class="price">$13</h5>
             </div>
             <p>mixed leaf, chicken, bacon, croutons, caesar dressing</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -128,7 +128,7 @@
               <h5 class="price">$13</h5>
             </div>
             <p>mixed leaf, tomatoes, cucumber, olives, feta, oregano, balsamic glaze</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -140,7 +140,7 @@
               <h5 class="price">$13</h5>
             </div>
             <p>mixed leaf, cucumber, onion, cherry tomatoes, vegetable oil, fresh lemon juice and balsamic glaze</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
 
@@ -158,7 +158,7 @@
               <h5 class="price">$5</h5>
             </div>
             <p>Nothing beats the taste of Coca Cola Classic.</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -170,7 +170,7 @@
               <h5 class="price">$5</h5>
             </div>
             <p>A 1.25 litre bottle of Sprite</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -182,7 +182,7 @@
               <h5 class="price">$5</h5>
             </div>
             <p>A 1.25 litre bottle of Fanta</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -194,7 +194,7 @@
               <h5 class="price">$3</h5>
             </div>
             <p>A 600 millilitre bottle of water</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -206,7 +206,7 @@
               <h5 class="price">$3</h5>
             </div>
             <p>A fresh can of Coca Cola</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -218,7 +218,7 @@
               <h5 class="price">$3</h5>
             </div>
             <p>A fresh can of Coca Cola Zero</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -230,7 +230,7 @@
               <h5 class="price">$3</h5>
             </div>
             <p>A fresh can of Sprite</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
   
@@ -242,13 +242,22 @@
               <h5 class="price">$3</h5>
             </div>
             <p>A fresh can of Fanta</p>
-            <button>Add To Cart</button>
+            <button class="add-to-cart">Add To Cart</button>
           </div>
         </div>
        </div>
 
        <button class="tablinks" onclick="openMenu(event, 'Starters')" id="defaultOpen">Select an Option</button>
 
+      </div>
+
+      <div id="cart" class="cart-section">
+        <h2>Your Cart</h2>
+        <ul class="cart-items"></ul>
+        <div class="cart-total">
+          <strong>Total:</strong> $<span class="total-price">0</span>
+        </div>
+        <button class="buy-now">Buy Now</button>
       </div>
 
       <footer class="'footer">
@@ -294,8 +303,7 @@
 
       
 
-
-
-      <script src="Other.js"></script>
+  <script src="Shopping_cart_other.js"></script>
+  <script src="Other.js"></script>
 </body>
 </html>

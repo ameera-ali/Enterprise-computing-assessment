@@ -20,7 +20,7 @@ body {
 
 }
 
-.navigation a, .dropdown .dropbtn {
+.navigation a, .dropdown .dropbtn, .cart-icon {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -29,17 +29,16 @@ body {
   font-size: 23px;
 }
 
-.navigation a:hover, .dropdown:hover .dropbtn {
+
+.navigation a:hover, .dropdown:hover .dropbtn, .cart-icon:hover {
   background-color: white;
   color: black;
-  height:31px;
 }
 
 .navigation a.active {
   color: #d05353;
   height: 31px;
 }
-
 
 .dropdown {
   float: left;
@@ -174,6 +173,70 @@ body {
   color:#191919;
   border-radius: 5px;
   border: 1px solid black;
+  }
+
+  .cart-section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .cart-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-items li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .cart-icon {
+    float: right;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 14px 16px;
+  }
+  
+  .cart-icon:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .buy-now {
+    background-color: #d05353;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  .buy-now:hover {
+    background-color: #191919;
+  }
+  
+  @media(max-width: 767px) {
+    .cart-section {
+      width: 100%;
+    }
   }
 
   .footer_container{

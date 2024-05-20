@@ -19,3 +19,4 @@ evt.currentTarget.className += "active";
 
 document.getElementById("defaultOpen").click();
 onlick="this.parentElement.style.display='none'";
+
